@@ -18,6 +18,29 @@
              <label id="email-label">Email<input type="email" id="email" placeholder="your email" required min="1" max="20"></label><br>
              <label id="number-label">Number<input type="number" id="number" placeholder="your number" required min="1" max="20"></label>
              <br>
+             <label for="dropdown">your current role</label>
+             <select name="dropdown" id="dropdown">
+                 <option value="student">student</option>
+                 <option value="partTime">part time</option>
+                 <option value="fullTime">full time</option>
+             </select><br>
+
+             <h4>Would you recommend freeCodeCamp to a friend?</h4>
+                <label><input type="radio" name="recommend" value="yes">yes</label>
+                <label><input type="radio" name="recommend" value="no">no</label>
+                <label><input type="radio" name="recommend" value="mayBe">may be</label>
+              
+            <h4 id="work1">your favorite feature</h4>
+            <label for="front"><input type="checkbox" id="front" name="feature" value="front">frontEnd</label>
+            <label for="back"><input type="checkbox" id="back" name="feature" value="back">backEnd</label>
+            <label for="db"><input type="checkbox" id="db" name="feature" value="db">dataBase</label> <br>
+
+            <label for="comments">any suggestion</label><br>
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea> <br>
+
+        
+             <button id ="submit">submit</button>
+         </form>
 
              
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
