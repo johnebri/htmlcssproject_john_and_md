@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(18, 19, 16);
+    text-align: center;
+    color: #fff;
+}
+h1 {
+    color: burlywood;
+}
+
+form {
+    padding:20px;
+}
